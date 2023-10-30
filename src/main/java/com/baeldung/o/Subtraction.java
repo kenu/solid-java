@@ -34,7 +34,6 @@ public class Subtraction implements CalculatorOperation {
         this.result = result;
     }
 
-    @Override
     public void perform() {
         result = left - right;
     }

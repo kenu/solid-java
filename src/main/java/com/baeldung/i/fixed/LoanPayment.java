@@ -4,23 +4,19 @@ import java.util.List;
 
 public class LoanPayment implements Loan {
 
-    @Override
-    public void intiateLoanSettlement() {
+  public void intiateLoanSettlement() {
 
-    }
+  }
 
-    @Override
-    public void initiateRePayment() {
+  public void initiateRePayment() {
 
-    }
+  }
 
-    @Override
-    public Object status() {
-        return null;
-    }
+  public Object status() {
+    return null;
+  }
 
-    @Override
-    public List<Object> getPayments() {
-        return null;
-    }
+  public List<Object> getPayments() {
+    return null;
+  }
 }
